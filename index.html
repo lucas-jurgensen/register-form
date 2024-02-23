@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Formulário Cadastro</title>
+  </head>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+  </style>
+
+  <body>
+    <main id="main">
+      <div class="main-content">
+        <div class="main-desc">
+          <div class="corp-headline">
+            <h1>NEGA ASSOCIATION</h1>
+          </div>
+
+          <div class="corp-desc">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              sint ipsa, amet voluptates soluta assumenda officiis quod. Fugiat,
+              quibusdam iure, sed rerum omnis ad enim cum voluptatum ea error
+              eius!
+            </p>
+          </div>
+        </div>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>CADASTRAR</legend>
+
+            <div class="index-form">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Nome completo"
+                required
+              />
+            </div>
+
+            <div class="index-form">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Seu email"
+                required
+              />
+            </div>
+
+            <div class="index-form">
+              <label for="password">Senha</label>
+              <input
+                type="password"
+                name="passowrd"
+                placeholder="Sua senha"
+                required
+                minlength="6"
+              />
+            </div>
+
+            <div class="index-form">
+              <label for="phone">Telefone</label>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Número de contato"
+                required
+              />
+            </div>
+
+            <div class="index-form">
+              <input id="submit-btn" type="submit" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
