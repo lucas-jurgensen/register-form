@@ -6,7 +6,10 @@ Projeto do curso B7WEB, criado pelo Bonieky Lacerda - https://github.com/bonieky
 
 # LINGUAGENS UTILIZADAS 
 - html
-- css 
+- css
+
+# LINK DE ACESSO
+https://register-nega.netlify.app/
 
 # OVERVIEW DO LAYOUT
 ![Captura de tela 2024-02-22 215013](https://github.com/lucas-jurgensen/register-form/assets/114704161/7d96649e-c59b-4e2d-9806-78d9b8dbc1a5)
